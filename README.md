@@ -5,3 +5,4 @@
 
 ## Content links
 - [12 factor app](https://12factor.net/)
+- [A comprehensive feature comparison study of opensource container orchestration frameworks](https://arxiv.org/pdf/2002.02806)
