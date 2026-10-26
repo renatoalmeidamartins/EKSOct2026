@@ -28,3 +28,12 @@
 - [Admission controllers in Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/)
 - [eksctl](https://github.com/eksctl-io/eksctl)
 - [Custom AMIs for EKS](https://docs.aws.amazon.com/eks/latest/userguide/eks-ami-build-scripts.html)
+- Blueprints
+    - [Bootstrapping clusters with EKS Blueprints](https://aws.amazon.com/blogs/containers/bootstrapping-clusters-with-eks-blueprints/)
+    - [Terraform](https://github.com/aws-ia/terraform-aws-eks-blueprints/tree/main)
+    - [CDK](https://github.com/awslabs/cdk-eks-blueprints)
+- [Bottlerocket](https://github.com/bottlerocket-os/bottlerocket), open-source OS optimized for running containers
+- Version upgrades
+    - [Understand the Kubernetes version lifecycle on EKS](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html)
+    - [Version skew policy](https://kubernetes.io/releases/version-skew-policy/)
+    - [Kubernetes releases](https://kubernetes.io/releases/)
