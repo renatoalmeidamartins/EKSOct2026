@@ -1,24 +1,21 @@
-apiVersion: apps/v1 
-kind: Deployment 
-metadata: 
-	name: webapp-deployment 
-	labels: 
-		app: webapp 
-spec: 
-	replicas: 4 
-	selector: 
-		matchLabels: 
-			app: webapp 
-	template: 
-		metadata: 
-			labels: 
-				app: webapp
-		spec: 
-				containers:
-				- name: webapp 
-					image: webapp:22.04
-				command: ["echo"]
-				args: ["Hello World"] 
-				ports: 
-				- containerPort: 80			
-  
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
