@@ -1,0 +1,24 @@
+apiVersion: apps/v1 
+kind: Deployment 
+metadata: 
+	name: webapp-deployment 
+	labels: 
+		app: webapp 
+spec: 
+	replicas: 4 
+	selector: 
+		matchLabels: 
+			app: webapp 
+	template: 
+		metadata: 
+			labels: 
+				app: webapp
+		spec: 
+				containers:
+				- name: webapp 
+					image: webapp:22.04
+				command: ["echo"]
+				args: ["Hello World"] 
+				ports: 
+				- containerPort: 80			
+  
