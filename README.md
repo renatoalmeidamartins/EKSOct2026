@@ -66,3 +66,6 @@
 - EKS auto-mode
     - [Getting started](https://aws.amazon.com/blogs/containers/getting-started-with-amazon-eks-auto-mode/)
     - [Autoscaling](https://docs.aws.amazon.com/eks/latest/best-practices/automode.html)
+- VPC CNI
+    - [repo](https://github.com/aws/amazon-vpc-cni-k8s)
+    - [documentation](https://docs.aws.amazon.com/eks/latest/best-practices/vpc-cni.html)
