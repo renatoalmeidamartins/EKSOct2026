@@ -69,3 +69,11 @@
 - VPC CNI
     - [repo](https://github.com/aws/amazon-vpc-cni-k8s)
     - [documentation](https://docs.aws.amazon.com/eks/latest/best-practices/vpc-cni.html)
+- [Network policy in kubernetes.io ](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- [Introducing security groups for pods](https://aws.amazon.com/blogs/containers/introducing-security-groups-for-pods/)
+- [Security groups for pods](https://docs.aws.amazon.com/eks/latest/best-practices/sgpp.html)
+- [Annotations for the LoadBalancer](https://docs.aws.amazon.com/eks/latest/userguide/auto-configure-nlb.html), we looked at `aws-load-balancer-nlb-target-type`, which can be `instance` or `ip`
+- [Comparing different types of load balancers ](https://aws.amazon.com/compare/the-difference-between-the-difference-between-application-network-and-gateway-load-balancing/)
+- [Deploying AWS Load Balancer Controller on Amazon EKS](https://aws.amazon.com/blogs/networking-and-content-delivery/deploying-aws-load-balancer-controller-on-amazon-eks/)
+- [AWS Load Balancer Controller](https://kubernetes-sigs.github.io/aws-load-balancer-controller/latest/)
+- [Route internet traffic with AWS Load Balancer Controller](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
