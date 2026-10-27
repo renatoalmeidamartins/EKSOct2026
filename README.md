@@ -63,3 +63,6 @@
     - [What is gtops by AWS](https://aws.amazon.com/what-is/gitops/)
     - [What is gitops by RedHat](https://www.redhat.com/en/topics/devops/what-is-gitops)
     - [What is gitops by Atlassian](https://www.atlassian.com/git/tutorials/gitops)
+- EKS auto-mode
+    - [Getting started](https://aws.amazon.com/blogs/containers/getting-started-with-amazon-eks-auto-mode/)
+    - [Autoscaling](https://docs.aws.amazon.com/eks/latest/best-practices/automode.html)
