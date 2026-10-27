@@ -4,6 +4,8 @@
 - [Labs and course materials](https://us-east-1.student.classrooms.aws.training/class/ilt%234RNEYqe9uqpKEpZZRVQ9AQ)
 
 ## Content links
+
+### Day 1
 - [12 factor app](https://12factor.net/)
 - [A comprehensive feature comparison study of opensource container orchestration frameworks](https://arxiv.org/pdf/2002.02806)
 - [CNCF's landscape of projects](https://landscape.cncf.io/)
@@ -37,3 +39,27 @@
     - [Understand the Kubernetes version lifecycle on EKS](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html)
     - [Version skew policy](https://kubernetes.io/releases/version-skew-policy/)
     - [Kubernetes releases](https://kubernetes.io/releases/)
+
+### Day 2
+- [kubectl api-resources](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_api-resources/)
+- [Best practices for cluster upgrades](https://docs.aws.amazon.com/eks/latest/best-practices/cluster-upgrades.html)
+- Some public registries
+    - [AWS ECR Public gallery](https://gallery.ecr.aws/search?page=1)
+    - [Docker Hub](https://hub.docker.com/search)
+- [ECR Image scanning](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html)
+- [Artifact Hub](https://artifacthub.io/)
+- [Helm quickstart](https://helm.sh/docs/intro/introduction)
+- [Helm charts](https://helm.sh/docs/topics/charts/)
+- [In-place vertical pod autoscaling](https://builder.aws.com/content/30MCh47Lw54JPCwGh0TKZgJU8d7/kubernetes-in-place-pod-resizing-vertical-scaling-without-downtime)
+- [kubectl autoscale](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_autoscale/)
+- [Vertical pod autoscaling](https://kubernetes.io/docs/concepts/workloads/autoscaling/vertical-pod-autoscale/) in kubernetes.io
+- [repo with a vertical pod auto scaler](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler#getting-started)
+- [helm chart for the VPA](https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler/charts)
+- [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler)
+- [Spot placement score](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-placement-score.html?refid=c938182f-f619-4856-948c-f2942a6af2ee)
+- [Kubernetes Cordon: How It Works And When To Use It](https://cast.ai/blog/kubernetes-cordon-how-it-works-and-when-to-use-it/)
+- [Karpenter](https://karpenter.sh/)
+- Gitops
+    - [What is gtops by AWS](https://aws.amazon.com/what-is/gitops/)
+    - [What is gitops by RedHat](https://www.redhat.com/en/topics/devops/what-is-gitops)
+    - [What is gitops by Atlassian](https://www.atlassian.com/git/tutorials/gitops)
