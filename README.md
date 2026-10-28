@@ -88,3 +88,10 @@
 - [Fluentbit outputs](https://docs.fluentbit.io/manual/data-pipeline/outputs)
 - [Start AWS Fargate logging for your cluster](https://docs.aws.amazon.com/eks/latest/userguide/fargate-logging.html)
 - [Getting Started with AWS Distro for OpenTelemetry using EKS Add-Ons](https://aws-otel.github.io/docs/getting-started/adot-eks-add-on)
+- [EBS volume types](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
+- [Kubernetes CSI](https://kubernetes.io/blog/2019/01/15/container-storage-interface-ga/)
+- [EBS CSI driver](https://github.com/kubernetes-sigs/aws-ebs-csi-driver)
+- [AWS Secrets and Configuration Provider](https://github.com/aws/secrets-store-csi-driver-provider-aws), can be installed as a helm chart or as a standard add-on from EKS.
+- New service for security, [AWS Continuum](https://aws.amazon.com/blogs/security/introducing-aws-continuum-security-at-machine-speed/)
+    - [Connecting EKS to continuum](https://docs.aws.amazon.com/continuum/latest/userguide/cv-onboard-eks-cluster.html)
+    - [Continuum becomes GA](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available/)

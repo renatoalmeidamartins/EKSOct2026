@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+spec:  
+  containers:
+    - name: my-app
+      image: nginx
+      volumeMounts: 
+        - name: myapp-volume
+          mountPath: /cache
+    - name: my-app2
+      image: busybox
+      volumeMounts: 
+        - name: myapp-volume-app2-container
+          mountPath: /my-app2-cache
+      
+      
+  volumes:
+    - name: myapp-volume
+      emptyDir: {}
+    - name: myapp-volume-app2-container
+      emptyDir: {}
