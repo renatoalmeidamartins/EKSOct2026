@@ -104,3 +104,4 @@
 - [IAM policy generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
 - [A deep dive into simplified Amazon EKS access management controls](https://aws.amazon.com/blogs/containers/a-deep-dive-into-simplified-amazon-eks-access-management-controls/)
 - [Amazon EKS Pod Identity: a new way for applications on EKS to obtain IAM credentials](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
+- [AKS for Amazon EKS professionals](https://learn.microsoft.com/en-us/azure/architecture/aws-professional/eks-to-aks/)
