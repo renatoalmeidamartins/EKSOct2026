@@ -1,6 +1,11 @@
 # EKSOct2026
 
+## My contact details
+- email: renatoalmeidamartins@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/renatodealmeidamartins)
+
 ## Materials, labs and survey
+- [MyClass](https://myclass.skillbuilder.aws) is where you can fill the survey. Go to the "past classes" tab and fill it.
 - [Labs and course materials](https://us-east-1.student.classrooms.aws.training/class/ilt%234RNEYqe9uqpKEpZZRVQ9AQ)
 - [All digital classrooms available in skill builder](https://skillbuilder.aws/category/style/expert-led-digital-classroom?pageSize=50&page=1)
 - [Running containers on EKS digital classroom](https://skillbuilder.aws/learn/PNSX5WHV9G/digital-classroom--running-containers-on-amazon-elastic-kubernetes-service-amazon-eks/R4N7B4A63U) - this requires an annual or team based [skillbuilder subscription](https://skillbuilder.aws/subscriptions)
@@ -95,3 +100,7 @@
 - New service for security, [AWS Continuum](https://aws.amazon.com/blogs/security/introducing-aws-continuum-security-at-machine-speed/)
     - [Connecting EKS to continuum](https://docs.aws.amazon.com/continuum/latest/userguide/cv-onboard-eks-cluster.html)
     - [Continuum becomes GA](https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available/)
+- [Grant users access to Kubernetes with an external OIDC provider](https://docs.aws.amazon.com/eks/latest/userguide/authenticate-oidc-identity-provider.html)
+- [IAM policy generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
+- [A deep dive into simplified Amazon EKS access management controls](https://aws.amazon.com/blogs/containers/a-deep-dive-into-simplified-amazon-eks-access-management-controls/)
+- [Amazon EKS Pod Identity: a new way for applications on EKS to obtain IAM credentials](https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-a-new-way-for-applications-on-eks-to-obtain-iam-credentials/)
