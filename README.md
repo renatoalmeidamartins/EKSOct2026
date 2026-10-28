@@ -2,7 +2,8 @@
 
 ## Materials, labs and survey
 - [Labs and course materials](https://us-east-1.student.classrooms.aws.training/class/ilt%234RNEYqe9uqpKEpZZRVQ9AQ)
-
+- [All digital classrooms available in skill builder](https://skillbuilder.aws/category/style/expert-led-digital-classroom?pageSize=50&page=1)
+- [Running containers on EKS digital classroom](https://skillbuilder.aws/learn/PNSX5WHV9G/digital-classroom--running-containers-on-amazon-elastic-kubernetes-service-amazon-eks/R4N7B4A63U) - this requires an annual or team based [skillbuilder subscription](https://skillbuilder.aws/subscriptions)
 ## Content links
 
 ### Day 1
@@ -63,6 +64,9 @@
     - [What is gtops by AWS](https://aws.amazon.com/what-is/gitops/)
     - [What is gitops by RedHat](https://www.redhat.com/en/topics/devops/what-is-gitops)
     - [What is gitops by Atlassian](https://www.atlassian.com/git/tutorials/gitops)
+    - Popular tooling
+        - [Argo](https://github.com/argoproj/argo-cd) 
+        - [Flux](https://github.com/fluxcd/flux2)
 - EKS auto-mode
     - [Getting started](https://aws.amazon.com/blogs/containers/getting-started-with-amazon-eks-auto-mode/)
     - [Autoscaling](https://docs.aws.amazon.com/eks/latest/best-practices/automode.html)
@@ -77,3 +81,10 @@
 - [Deploying AWS Load Balancer Controller on Amazon EKS](https://aws.amazon.com/blogs/networking-and-content-delivery/deploying-aws-load-balancer-controller-on-amazon-eks/)
 - [AWS Load Balancer Controller](https://kubernetes-sigs.github.io/aws-load-balancer-controller/latest/)
 - [Route internet traffic with AWS Load Balancer Controller](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
+### Day 3
+- [X-ray deprecation notice](https://docs.aws.amazon.com/xray/latest/devguide/xray-gettingstarted.html), being replaced by OpenTelemetry
+- [Migration from X-Ray to OTel](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-migration.html)
+- [Amazon EKS Best Practices Guide](https://docs.aws.amazon.com/eks/latest/best-practices/introduction.html)
+- [Fluentbit outputs](https://docs.fluentbit.io/manual/data-pipeline/outputs)
+- [Start AWS Fargate logging for your cluster](https://docs.aws.amazon.com/eks/latest/userguide/fargate-logging.html)
+- [Getting Started with AWS Distro for OpenTelemetry using EKS Add-Ons](https://aws-otel.github.io/docs/getting-started/adot-eks-add-on)
